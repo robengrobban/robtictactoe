@@ -7,3 +7,61 @@
 html {
 	font-size: 16px;
 }
+
+
+#start-button {
+	width: 95%;
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 2.5%;
+	cursor: pointer;
+	background-color: white;
+	border: 0.1rem solid black;
+}
+
+#option-container {
+	width: 95%;
+	margin: 2.5%;
+	background-color: white;
+	border: 0.1rem solid black;
+	overflow: hidden;
+	display: block;
+}
+#option-container label {
+	text-align: center;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+#result {
+	display: none;
+	width: 95%;
+	font-size: 2rem;
+	padding: 1rem;
+	margin: 2.5%;
+	text-align: center;
+	background-color: white;
+	border: 0.1rem solid black;
+	font-weight: bold;
+}
+
+#game {
+	width: 95%;
+	margin: 2.5%;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+
+#game .game-place {
+	width: 33.33%;
+	height: 30vh;
+	font-size: 7rem;
+	float: left;
+	cursor: pointer;
+	background-color: white;
+	border: 0.1rem solid black;
+}

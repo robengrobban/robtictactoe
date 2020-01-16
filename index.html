@@ -7,24 +7,29 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="stil.css">
-		<script type="text/javascript" src="script.js"></script>
+		<script defer type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 
-		<button id="#start-button">Starta</button>
+		<button onclick="start()" id="start-button">Starta</button>
+		<div id="option-container">
+			<label><input id="computer-start" type="checkbox">Låt dator starta</label>
+		</div>
+
+		<div id="result">Datorn vann!</div>
 
 		<div id="game" >
-			<button class="game-place"></button>
-			<button class="game-place"></button>
-			<button class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
 
-			<button class="game-place"></button>
-			<button class="game-place"></button>
-			<button class="game-place"></button>
-			
-			<button class="game-place"></button>
-			<button class="game-place"></button>
-			<button class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
+			<button onclick="choose(this)" class="game-place"></button>
 		</div>
 
 	</body>

@@ -1,4 +1,4 @@
-
+ 
 let gameOn = false;
 let playerMove = true;
 
